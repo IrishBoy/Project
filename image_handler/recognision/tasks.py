@@ -5,7 +5,7 @@ import urllib.request
 
 import cv2
 
-from celeryapp import shared_task
+from celery import shared_task
 
 from .models import Algorithm, ImageExample, History
 
