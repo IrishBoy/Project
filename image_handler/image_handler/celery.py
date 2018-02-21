@@ -1,4 +1,5 @@
 import os
+import celery 
 from celery import Celery
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'image_handler.settings')
